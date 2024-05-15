@@ -1,0 +1,17 @@
+
+
+
+div#img_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+img {
+    height: 470px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
