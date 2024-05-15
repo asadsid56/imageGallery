@@ -9,9 +9,15 @@ div#img_container {
     gap: 10px;
 }
 
-
 img {
-    height: 470px;
+    height: 300px;
+    width: 400px;
     border: 2px solid white;
     border-radius: 20px;
+}
+
+
+#loadBtn {
+    display: none;
+    margin: 20px auto;  
 }
