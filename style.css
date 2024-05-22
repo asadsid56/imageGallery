@@ -1,16 +1,29 @@
 body {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-style: normal;
   }
   
-.bg {
-    background-image: url("../images/background.jpg");
+.header {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 438px;
+    width: 100%;
 }  
+
+
 
 div#img_container {
     width: 80%;

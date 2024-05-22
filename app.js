@@ -25,9 +25,14 @@ async function getImages() {
     console.log(results);
 
     results.map((result) => {
+        const download = document.createElement("a"); 
+        download.href = result.links.download; 
+        download.target = "_blank"; 
+        img_container.appendChild(download); 
         const image = document.createElement("img"); 
         image.src = result.urls.regular; 
-        img_container.appendChild(image); 
+        download.appendChild(image); 
+        
     }); 
     loadBtn.style.display = "block"; 
 }
